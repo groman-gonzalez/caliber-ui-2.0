@@ -26,10 +26,10 @@ import { ErrorService } from 'src/app/error-handling/services/error.service';
 export class BatchModalComponent implements OnInit, OnChanges {
 
   /*
- The batch modal component is the child component of the batch view component.
- It handles the modal used to create and update batches.
- This component also handles form validation from the user.
- @author Anthony Jin, Juan Trejo
+ The Error Modal Appears either when the start and end dates are not set up
+ correctly, or the trainer and coTrainer match. The modal contains an error message
+ for both cases
+ @author William Bennett, Daniel Mitre
 
 */
 
